@@ -1,1 +1,4 @@
-
+SELECT patient_id, patient_name, conditions
+FROM Patients
+WHERE conditions LIKE 'DIAB1%'      -- at the beginning
+   OR conditions LIKE '% DIAB1%';   -- after a space
