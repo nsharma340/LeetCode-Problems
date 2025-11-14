@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+--- Write your MySQL query statement below
 SELECT user_id
 FROM Loans
 WHERE loan_type IN ('Refinance', 'Mortgage')
